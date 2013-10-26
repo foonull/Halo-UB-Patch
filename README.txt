@@ -18,7 +18,7 @@ That is all. Launching the Halo app should now work.
 
 — Technical Info (for the curious) —
 
-The bug in Halo is that is allocating memory by calling mmap with a fixed memory address. As such, Halo was overwriting crucial data on some systems due to the malloc changes in 10.9. The fix presented is calling mmap earlier on in the process.
+The bug in Halo is that it’s allocating memory by calling mmap with a fixed memory address. As such, Halo was overwriting crucial data on some systems due to the malloc changes in 10.9. The fix presented is calling mmap earlier on in the process.
 
 — Misc. Links —
 HaloMD - http://halomd.net (for extending the life of Halo Mac and making it fun again)
